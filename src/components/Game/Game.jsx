@@ -23,10 +23,12 @@ import greenCar from "../../assets/green-car.png";
 export default function GameContainer() {
   const teamName = sessionStorage.getItem("team-name");
   const teamColor = sessionStorage.getItem("team-color");
-  const penalty = parseInt(sessionStorage.getItem("mode"));
+  const mode = sessionStorage.getItem("mode");
+  const penalty = mode ? parseInt(mode) : 2;
 
-  const carColor =
-    teamColors.find((option) => option.color === teamColor).car ?? "red";
+  const carColor = teamColor
+    ? teamColors.find((option) => option.color === teamColor).car
+    : "red";
   const randomNum = Math.round(Math.random() * 100);
 
   const [hasStarted, setHasStarted] = useState(false);
