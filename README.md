@@ -6,7 +6,7 @@ You're a car mechanic in a pit crew, and your driver is boxing with a time penal
 
 ## Demo
 
-![Gameplay Preview](./public/demo.gif)
+![Gameplay Preview](./src/assets/demo.gif)
 
 ## Built With
 
