@@ -4,15 +4,17 @@ A timer-based, motor racing-themed React game.
 
 You're a car mechanic in a pit crew, and your driver is boxing with a time penalty. Without looking at a timer, you have to wait until the penalty is served correctly, then touch (click) the car as quickly as possible.
 
-## ✨ Demo
+## Demo
 
-## 🛠️ Built With
+![Gameplay Preview](./public/demo.gif)
+
+## Built With
 
 - [React](https://reactjs.org/)
 - Styled Components
 - Create React App
 
-## 💬 Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
